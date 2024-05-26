@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.5)), url("Ust_highschooljf55.jpg");
+    background-size: cover;
+}
+header {
+    background-color: gold;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    width: 100%;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.ust {
+    padding-left: 10px;
+    margin-right: 16%;
+    text-align: center;
+}
+.ehs {
+    margin-left: 18%;
+    padding-right: 10px;
+    text-align: justify;
+}
+.mission {
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    width: 35%;
+    margin-left: 23%;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+}
+#sections {
+    font-size: 20px;
+    text-align: center;
+}
+table {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    width: 95%;
+    border-collapse: collapse;
+}
+td {
+    font-size: 18px;
+    text-align: justify;
+    padding: 15px;
+    vertical-align: top;
+}
+p {
+    line-height: 1.5;
+}
+.mission, .image{
+    display: inline-block;
+    vertical-align: top;
+}
+.image{
+    width: 30%;
+    margin: 2%;
+}
+.image img{
+    width: fit-content;
+    height: 20%;
+}
+#ust, #ehs{
+    font-size: 18px;
+}
+h3{
+    font-size: 25px;
+    font-style: italic;
+}
+.photo, .me{
+    display: inline-block;
+    vertical-align: top;
+}
+.photo{
+    width:60%;
+    margin: 1%;
+}
+.photo img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.me {
+    text-align: justify;
+    font-size: 30px;
+    padding: 20px;
+    width: 30%;
+    background-color: #f1e3a4;
+    font-family: 'Perpetua', serif;
+    margin: 1%;
+}
+
+
